@@ -1,0 +1,31 @@
+.top-container{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: row;
+}
+.top-container .container{
+    background-color: green;
+}
+.container{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+div{
+color: #7a0e0e;
+}
+@media(max-width:800px;){
+    .top-container{
+    flex-direction: row;
+}
+}
+img{
+    position:absolute;
+    left: 1200px;
+    top: 100px;
+    bottom: auto;
+    opacity: 50%;
+    z-index:1;
+}
